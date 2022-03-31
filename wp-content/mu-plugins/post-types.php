@@ -12,7 +12,8 @@ function post_types()
             'singular_name' => "Event"
         ),
         'menu_icon' => 'dashicons-calendar',
-        'rewrite' => array('slug' => 'events'),
+        'rewrite' => array('slug' => 'events', 'category' => 'events_category'),
+        'taxonomies' => array('category'),
         'has_archive' => true,
         'supports' => array('title', 'editor', 'excerpt', 'custom-fields'),
         'capability_type' => 'event',
@@ -29,7 +30,8 @@ function post_types()
             'singular_name' => "Plant"
         ),
         'menu_icon' => 'dashicons-carrot',
-        'rewrite' => array('slug' => 'plants'),
+        'rewrite' => array('slug' => 'plants', 'category' => 'plants_category'),
+        'taxonomies' => array('category'),
         'has_archive' => true,
         'supports' => array('title', 'editor', 'excerpt', 'custom-fields'),
         'capability_type' => 'plant',
@@ -43,10 +45,11 @@ function post_types()
             'add_new_item' => 'Add New Tip',
             'edit_item' => 'Edit Tip',
             'all_items' => 'All Tips',
-            'singular_name' => "Tip"
+            'singular_name' => "tip"
         ),
         'menu_icon' => 'dashicons-superhero-alt',
-        'rewrite' => array('slug' => 'tips'),
+        'rewrite' => array('slug' => 'tips', 'category' => 'tips_category'),
+        'taxonomies' => array('category'),
         'has_archive' => true,
         'supports' => array('title', 'editor', 'excerpt', 'custom-fields'),
         'capability_type' => 'tip',
@@ -63,7 +66,8 @@ function post_types()
             'singular_name' => "Tool"
         ),
         'menu_icon' => 'dashicons-hammer',
-        'rewrite' => array('slug' => 'tools'),
+        'rewrite' => array('slug' => 'tools', 'category' => 'tools_category'),
+        'taxonomies' => array('category'),
         'has_archive' => true,
         'supports' => array('title', 'editor', 'excerpt', 'custom-fields'),
         'capability_type' => 'tool',

@@ -1,5 +1,5 @@
 <?php
-$posts_per_page_count = get_theme_mod( 'feature_posts_posts_number', 6 );
+$posts_per_page_count = get_theme_mod( 'feature_posts_posts_number', 3 );
 $feature_posts_id = get_theme_mod( 'feature_posts_category', '' );
 
 $query = new WP_Query( apply_filters( 'bosa_blog_args', array(
@@ -29,9 +29,7 @@ if( !get_theme_mod( 'disable_feature_posts_section', false ) && $show_feature_po
 				<?php if( !get_theme_mod( 'disable_feature_posts_section_title', true ) && get_theme_mod( 'feature_posts_section_title', '' ) ) { ?>
 					<h2 class="section-title"><?php echo esc_html( get_theme_mod( 'feature_posts_section_title', '' ) ); ?></h2>
 				<?php } 
-				if(  !get_theme_mod( 'disable_feature_posts_section_description', true ) && get_theme_mod( 'feature_posts_section_description', '' ) ){ ?>
-					<p><?php echo esc_html( get_theme_mod( 'feature_posts_section_description', '' ) ); ?></p>
-				<?php } ?>
+			 ?>
 			</div>
 		<?php } ?>
 		<div class="content-wrap">

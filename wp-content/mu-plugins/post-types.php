@@ -15,7 +15,7 @@ function post_types()
         'rewrite' => array('slug' => 'events', 'category' => 'events_category'),
         'taxonomies' => array('category'),
         'has_archive' => true,
-        'supports' => array('title', 'editor', 'excerpt', 'custom-fields'),
+        'supports' => array('title', 'editor','thumbnail', 'excerpt', 'custom-fields'),
         'capability_type' => 'event',
         'map_meta_cap' => true,
     ));
@@ -33,7 +33,7 @@ function post_types()
         'rewrite' => array('slug' => 'plants', 'category' => 'plants_category'),
         'taxonomies' => array('category'),
         'has_archive' => true,
-        'supports' => array('title', 'editor', 'excerpt', 'custom-fields'),
+        'supports' => array('title', 'editor', 'thumbnail', 'excerpt', 'custom-fields'),
         'capability_type' => 'plant',
         'map_meta_cap' => true,
     ));
@@ -51,7 +51,7 @@ function post_types()
         'rewrite' => array('slug' => 'tips', 'category' => 'tips_category'),
         'taxonomies' => array('category'),
         'has_archive' => true,
-        'supports' => array('title', 'editor', 'excerpt', 'custom-fields'),
+        'supports' => array('title', 'editor', 'thumbnail', 'excerpt', 'custom-fields'),
         'capability_type' => 'tip',
         'map_meta_cap' => true,
     ));
@@ -69,7 +69,7 @@ function post_types()
         'rewrite' => array('slug' => 'tools', 'category' => 'tools_category'),
         'taxonomies' => array('category'),
         'has_archive' => true,
-        'supports' => array('title', 'editor', 'excerpt', 'custom-fields'),
+        'supports' => array('title', 'editor','thumbnail', 'excerpt', 'custom-fields'),
         'capability_type' => 'tool',
         'map_meta_cap' => true,
     ));

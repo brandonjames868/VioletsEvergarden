@@ -51,6 +51,16 @@ if ( ! function_exists( 'bosa_setup' ) ) :
 		 */
 		add_theme_support( 'post-thumbnails' );
 
+		 //this tells Wordpress to generate images to 400 px wide, 250 px tall and cropped
+		add_image_size('eventLandscape',400, 260, true);
+        add_image_size('eventPortrait',480, 650, true);
+		add_image_size('plantLandscape',400, 260, true);
+        add_image_size('plantPortrait',480, 650, true);
+		add_image_size('toolLandscape',400, 260, true);
+        add_image_size('toolPortrait',480, 650, true);
+		add_image_size('tipLandscape',400, 260, true);
+        add_image_size('tipPortrait',480, 650, true);
+
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'bosa' ),
@@ -96,11 +106,11 @@ if ( ! function_exists( 'bosa_setup' ) ) :
 		add_theme_support( 'woocommerce' );
 
 		// Add custom image size.
-		add_image_size( 'bosa-1920-550', 1920, 550, true );
-		add_image_size( 'bosa-1370-550', 1370, 550, true );
-		add_image_size( 'bosa-590-310', 590, 310, true );
-		add_image_size( 'bosa-420-380', 420, 380, true );
-		add_image_size( 'bosa-420-300', 420, 300, true );
+		add_image_size( 'homepage_banner', 1920, 550, true );
+		add_image_size( 'event_banner', 1370, 550, true );
+		add_image_size( 'home_garden', 590, 310, true );
+		add_image_size( 'plant_expo', 420, 380, true );
+		add_image_size( 'plant_workshop', 420, 300, true );
 		add_image_size( 'bosa-420-200', 420, 200, true );
 		add_image_size( 'bosa-290-150', 290, 150, true );
 		add_image_size( 'bosa-80-60', 80, 60, true );
@@ -208,6 +218,40 @@ if ( ! function_exists( 'bosa_setup' ) ) :
 	}
 endif;
 add_action( 'after_setup_theme', 'bosa_setup' );
+
+
+function pageBanner($args=null){
+	if(!$args['title']){ // no title passed in
+		$args['title'] = get_the_title();
+		}
+	if(!$args['subtitle']){ // no subtitle passed in
+		$args['subtitle'] = get_field('page_banner_subtitle');
+		}
+	if(!$args['photo']){ // no photo passed in
+		if(get_field('page_banner_background_image'))
+		$args['photo'] = get_field('page_banner_background_image')['sizes']['pageBanner'];
+		else
+		$args['photo'] = get_theme_file_uri('/images/media/event_banner.jpg');
+	}
+	?>
+	<div class="page-banner">
+		<div class="page-banner__bg-image" style="background-image: url(
+			<?php echo $args['photo']; ?> );">
+		</div>
+		<div class="page-banner__content container container--narrow">
+			<h1 class="page-banner__title"> <?php echo $args['title'];?></h1>
+			<div class="page-banner__intro">
+				<p> <?php echo $args['subtitle']; ?></p>
+			</div>
+		</div>
+	</div>
+
+   <?php 
+
+   add_image_size('pageBanner',1500, 350, true);
+
+}
+
 
 /**
  * Enqueue scripts and styles.

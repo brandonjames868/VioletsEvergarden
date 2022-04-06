@@ -5,9 +5,9 @@
 
  
 <div class="page-banner">
-  <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('images/library-hero.jpg') ?>);"></div>
+  <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('images/media/homepage_banner.jpg') ?>);"></div>
     <div class="page-banner__content container t-center c-white">
-      <h1 class="headline headline--large">Welcome to Violets Evergarden!!</h1>
+      <h1 class="headline headline--large">Welcome to Violet Evergarden!!</h1>
       <h2 class="headline headline--medium">We have the best selection of exotic plants, flowers and gardening tools!</h2>
     </div>
   </div>

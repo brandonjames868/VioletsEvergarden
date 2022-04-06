@@ -2,9 +2,10 @@
     get_header();
     while(have_posts()){  // WordPress function that returns the number of posts
         the_post();       // keeps track of which post we are working with and repalces the count variable
+        pageBanner();
         ?>
     <div class="page-banner">
-            <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('   ')?> );"></div>
+            <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/app/public/wp-content/themes/bosa/assets/images/media/homepage_banner.jpg')?> );"></div>
             <div class="page-banner__content container container--narrow">
                 <h1 class="page-banner__title"> <?php the_title();?></h1>  <!-- hollow -->
                 <div class="page-banner__intro">
@@ -22,7 +23,7 @@
             <span class="metabox__main"><?php the_title(); ?> </span></p>
         </div>
         <div class="generic-content">
-            <?php the_content(); 
+            <?php the_post_thumbnail(); the_content(); 
                 the_post();?>
         </div>
 

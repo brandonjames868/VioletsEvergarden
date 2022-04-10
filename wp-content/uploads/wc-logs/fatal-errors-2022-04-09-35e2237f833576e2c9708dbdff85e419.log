@@ -1,0 +1,14 @@
+2022-04-09T16:51:02+00:00 CRITICAL Uncaught Error: Class '\Elementor\ElementsKit_Widget_Blog_Posts_Handler' not found in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\plugins\elementskit-lite\core\build-widgets.php:52
+Stack trace:
+#0 C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\plugins\elementskit-lite\core\build-widgets.php(27): ElementsKit_Lite\Core\Build_Widgets->add_widget(Array)
+#1 C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\plugins\elementskit-lite\traits\singleton.php(17): ElementsKit_Lite\Core\Build_Widgets->__construct()
+#2 C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\plugins\elementskit-lite\plugin.php(55): ElementsKit_Lite\Core\Build_Widgets::instance()
+#3 C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\plugins\elementskit-lite\plugin.php(313): ElementsKit_Lite\Plugin->__construct()
+#4 C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\plugins\elementskit-lite\elementskit-lite.php(345): ElementsKit_Lite\Plugin:: in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\plugins\elementskit-lite\core\build-widgets.php on line 52
+
+2022-04-09T16:57:51+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\template-parts\content-single.php on line 37
+
+2022-04-09T16:58:01+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\template-parts\content-single.php on line 37
+
+2022-04-09T17:03:47+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\template-parts\content-single.php on line 37
+

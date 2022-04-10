@@ -1,0 +1,56 @@
+2022-03-29T16:26:21+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\front-page.php:85
+Stack trace:
+#0 C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-blog-header.php(19): require_once('C:\\Users\\adamd\\...')
+#2 C:\Users\adamd\Local Sites\violetsevergarden\app\public\index.php(17): require('C:\\Users\\adamd\\...')
+#3 {main}
+  thrown in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\front-page.php on line 85
+
+2022-03-29T16:28:16+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\front-page.php:85
+Stack trace:
+#0 C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-blog-header.php(19): require_once('C:\\Users\\adamd\\...')
+#2 C:\Users\adamd\Local Sites\violetsevergarden\app\public\index.php(17): require('C:\\Users\\adamd\\...')
+#3 {main}
+  thrown in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\front-page.php on line 85
+
+2022-03-29T16:29:07+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\front-page.php:85
+Stack trace:
+#0 C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-blog-header.php(19): require_once('C:\\Users\\adamd\\...')
+#2 C:\Users\adamd\Local Sites\violetsevergarden\app\public\index.php(17): require('C:\\Users\\adamd\\...')
+#3 {main}
+  thrown in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\front-page.php on line 85
+
+2022-03-29T16:29:18+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\front-page.php:85
+Stack trace:
+#0 C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-blog-header.php(19): require_once('C:\\Users\\adamd\\...')
+#2 C:\Users\adamd\Local Sites\violetsevergarden\app\public\index.php(17): require('C:\\Users\\adamd\\...')
+#3 {main}
+  thrown in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\front-page.php on line 85
+
+2022-03-29T16:33:51+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\front-page.php:84
+Stack trace:
+#0 C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-blog-header.php(19): require_once('C:\\Users\\adamd\\...')
+#2 C:\Users\adamd\Local Sites\violetsevergarden\app\public\index.php(17): require('C:\\Users\\adamd\\...')
+#3 {main}
+  thrown in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\front-page.php on line 84
+
+2022-03-29T16:34:37+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\front-page.php:84
+Stack trace:
+#0 C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-blog-header.php(19): require_once('C:\\Users\\adamd\\...')
+#2 C:\Users\adamd\Local Sites\violetsevergarden\app\public\index.php(17): require('C:\\Users\\adamd\\...')
+#3 {main}
+  thrown in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\front-page.php on line 84
+
+2022-03-29T19:29:18+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\functions.php on line 18
+
+2022-03-29T19:29:19+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\functions.php on line 18
+
+2022-03-29T19:30:42+00:00 CRITICAL Cannot redeclare post_types() (previously declared in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\mu-plugins\post-types.php:3) in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\functions.php on line 19
+
+2022-03-29T19:30:43+00:00 CRITICAL Cannot redeclare post_types() (previously declared in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\mu-plugins\post-types.php:3) in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\functions.php on line 19
+

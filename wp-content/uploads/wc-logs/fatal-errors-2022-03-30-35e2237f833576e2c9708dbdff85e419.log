@@ -1,0 +1,8 @@
+2022-03-30T21:57:00+00:00 CRITICAL syntax error, unexpected '<' in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\template-parts\feature-posts\feature-posts-one.php on line 33
+
+2022-03-30T22:17:31+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\template-parts\feature-posts\feature-posts-one.php on line 231
+
+2022-03-30T22:58:27+00:00 CRITICAL syntax error, unexpected 'elseif' (T_ELSEIF) in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive.php on line 233
+
+2022-03-30T22:59:48+00:00 CRITICAL syntax error, unexpected 'elseif' (T_ELSEIF) in C:\Users\adamd\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive.php on line 133
+

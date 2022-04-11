@@ -1,18 +1,25 @@
 <?php
+/**
+ * The template for displaying archive pages
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package Bosa
+ */
 
-  get_header();?>
-
-  <div class="page-banner">
-        <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('  ')?> );"></div>
+get_header();
+?>
+<div class="page-banner">
+        <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/app/public/wp-content/themes/bosa/assets/images/media/event_banner.jpg')?> );"></div>
         <div class="page-banner__content container container--narrow">
-            <h1 class="page-banner__title">  All Our Events</h1>  
+            <h1 class="page-banner__title">  All Our Gardening Tools</h1>  
             <div class="page-banner__intro">
-                <p>Don&rsquo;t miss our green events!</p>
-                <p>Mark the dates in your Calenders!</p>
+                <p>Check out recommended tools for your home garden!</p>
+                <p>Ensure your plantss and flowers get the best care and treatment!</p>
             </div>
         </div>  
   </div>
-  <div id="content" class="site-content">
+<div id="content" class="site-content">
 	<div class="container">
 		<section class="wrap-detail-page ">
 				<?php
@@ -114,7 +121,7 @@
 								 * If you want to override this in a child theme, then include a file
 								 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
 								 */
-								get_template_part( 'template-parts/content', get_post_type('event') );
+								get_template_part( 'template-parts/content', get_post_type('tool') );
 
 							endwhile;
 

@@ -22,7 +22,18 @@
             <span class="metabox__main"><?php the_title(); ?> </span></p>
         </div>
         <div class="generic-content">
-            <?php the_content(); ?>
+            <?php 
+            if( has_post_thumbnail() ){
+                if( get_theme_mod( 'single_feature_image', 'show_in_all_pages' ) == 'show_in_all_pages' ){ ?>
+                    <figure class="feature-image single-feature-image">
+                        <?php bosa_image_size( 'bosa-1370-550' ); ?>
+                    </figure>
+                <?php }else{
+                    // will disable in all pages
+                    echo '';
+                }
+            }
+            the_content(); ?>
         </div>
         <?php 
             $relatedEvents = get_field('related_events');// array of post objects

@@ -1,0 +1,20 @@
+2022-04-10T00:04:23+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\template-parts\content-single.php on line 37
+
+2022-04-10T00:05:47+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\template-parts\content-single.php on line 37
+
+2022-04-10T00:06:57+00:00 CRITICAL syntax error, unexpected end of file in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\template-parts\content-single.php on line 37
+
+2022-04-10T16:43:37+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\single-event.php on line 7
+
+2022-04-10T19:26:02+00:00 CRITICAL Uncaught Error: Class 'plants' not found in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\template-parts\content-plants.php:43
+Stack trace:
+#0 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-includes\template.php(772): require()
+#1 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-includes\template.php(716): load_template('C:\\Users\\aleks\\...', false, Array)
+#2 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\single-event.php(162): get_template_part('template-parts/...', 'plants')
+#4 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\aleks\\...')
+#5 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-blog-header.php(19): require_once('C:\\Users\\aleks\\...')
+#6 C:\Users\aleks\Local Sites\violetsevergarden\app\public\in in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\template-parts\content-plants.php on line 43
+
+2022-04-10T19:37:47+00:00 CRITICAL syntax error, unexpected ')', expecting ';' or ',' in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\single-event.php on line 155
+

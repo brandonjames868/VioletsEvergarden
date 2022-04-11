@@ -1,0 +1,80 @@
+2022-04-11T02:11:52+00:00 CRITICAL Uncaught Error: Class 'plant' not found in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-plant.php:24
+Stack trace:
+#0 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-blog-header.php(19): require_once('C:\\Users\\aleks\\...')
+#2 C:\Users\aleks\Local Sites\violetsevergarden\app\public\index.php(17): require('C:\\Users\\aleks\\...')
+#3 {main}
+  thrown in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-plant.php on line 24
+
+2022-04-11T02:17:16+00:00 CRITICAL Uncaught Error: Class 'plant' not found in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-plant.php:24
+Stack trace:
+#0 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-blog-header.php(19): require_once('C:\\Users\\aleks\\...')
+#2 C:\Users\aleks\Local Sites\violetsevergarden\app\public\index.php(17): require('C:\\Users\\aleks\\...')
+#3 {main}
+  thrown in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-plant.php on line 24
+
+2022-04-11T02:18:03+00:00 CRITICAL Uncaught Error: Class 'Plant' not found in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-plant.php:24
+Stack trace:
+#0 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-blog-header.php(19): require_once('C:\\Users\\aleks\\...')
+#2 C:\Users\aleks\Local Sites\violetsevergarden\app\public\index.php(17): require('C:\\Users\\aleks\\...')
+#3 {main}
+  thrown in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-plant.php on line 24
+
+2022-04-11T02:18:15+00:00 CRITICAL Uncaught Error: Class 'Plant' not found in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-plant.php:24
+Stack trace:
+#0 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-blog-header.php(19): require_once('C:\\Users\\aleks\\...')
+#2 C:\Users\aleks\Local Sites\violetsevergarden\app\public\index.php(17): require('C:\\Users\\aleks\\...')
+#3 {main}
+  thrown in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-plant.php on line 24
+
+2022-04-11T02:22:29+00:00 CRITICAL Uncaught Error: Class 'Plant' not found in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-plant.php:24
+Stack trace:
+#0 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-blog-header.php(19): require_once('C:\\Users\\aleks\\...')
+#2 C:\Users\aleks\Local Sites\violetsevergarden\app\public\index.php(17): require('C:\\Users\\aleks\\...')
+#3 {main}
+  thrown in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-plant.php on line 24
+
+2022-04-11T02:24:38+00:00 CRITICAL Uncaught Error: Class 'Plant' not found in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-plant.php:24
+Stack trace:
+#0 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-blog-header.php(19): require_once('C:\\Users\\aleks\\...')
+#2 C:\Users\aleks\Local Sites\violetsevergarden\app\public\index.php(17): require('C:\\Users\\aleks\\...')
+#3 {main}
+  thrown in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-plant.php on line 24
+
+2022-04-11T02:36:08+00:00 CRITICAL Uncaught Error: Class 'tip' not found in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-tip.php:24
+Stack trace:
+#0 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-blog-header.php(19): require_once('C:\\Users\\aleks\\...')
+#2 C:\Users\aleks\Local Sites\violetsevergarden\app\public\index.php(17): require('C:\\Users\\aleks\\...')
+#3 {main}
+  thrown in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-tip.php on line 24
+
+2022-04-11T02:51:32+00:00 CRITICAL Uncaught Error: Class 'tool' not found in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-tool.php:24
+Stack trace:
+#0 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-blog-header.php(19): require_once('C:\\Users\\aleks\\...')
+#2 C:\Users\aleks\Local Sites\violetsevergarden\app\public\index.php(17): require('C:\\Users\\aleks\\...')
+#3 {main}
+  thrown in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-tool.php on line 24
+
+2022-04-11T03:17:37+00:00 CRITICAL Uncaught Error: Class 'Plant' not found in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-plant.php:24
+Stack trace:
+#0 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-blog-header.php(19): require_once('C:\\Users\\aleks\\...')
+#2 C:\Users\aleks\Local Sites\violetsevergarden\app\public\index.php(17): require('C:\\Users\\aleks\\...')
+#3 {main}
+  thrown in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-plant.php on line 24
+
+2022-04-11T03:23:49+00:00 CRITICAL Uncaught Error: Class 'Plant' not found in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-plant.php:24
+Stack trace:
+#0 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-blog-header.php(19): require_once('C:\\Users\\aleks\\...')
+#2 C:\Users\aleks\Local Sites\violetsevergarden\app\public\index.php(17): require('C:\\Users\\aleks\\...')
+#3 {main}
+  thrown in C:\Users\aleks\Local Sites\violetsevergarden\app\public\wp-content\themes\bosa\archive-plant.php on line 24
+

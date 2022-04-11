@@ -18,6 +18,9 @@
        the_post();?>
 
         <div class="event-summary">
+          <div class="post-image">
+            <?php echo get_the_post_thumbnail()?>
+          </div>
         <a class="event-summary__date t-center" href="#">
                 <span class="event-summary__month">
                   <?php 

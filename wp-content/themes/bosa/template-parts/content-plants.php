@@ -8,7 +8,7 @@
             <div class="page-banner__content container container--narrow">
                 <h1 class="page-banner__title"> <?php the_title();?></h1>  <!-- hollow -->
                 <div class="page-banner__intro">
-                    <p> Keep up with our latest Plants.</p>
+                    <p> Keep up with our latest Plants.Being powered by content-plant.php</p>
                 </div>
             </div>  
     </div>
@@ -40,7 +40,7 @@
                <a class="plant-summary__name t-center" href="#">
                  <span class="plant-summary__name">
                    <?php 
-                     $plants = new plants(get_field('plants_name'));
+                     $plants = new plants(get_field('plant_name'));
                      echo $plants;
                  ?></span>
                </a>
